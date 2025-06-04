@@ -1,16 +1,46 @@
 img{
   width: 60%;
   align-self: center;
+  border-radius: 10px;
 }
 
 .card{
-  border: rgb(103, 102, 105) 3px solid;
+  border: rgb(253, 254, 254) 3px solid;
+  background-color: darkturquoise;
   display: flex;  
   flex-direction: column;
   margin-left:5%;
   margin-right:5%;
   margin-top: 1%;
   margin-bottom: 1%;
+  border-radius: 10px;
+}
+
+.exec-card {
+    background-color: rgb(144, 224, 239);
+    border: rgb(0, 0, 0) 3px solid;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease;
+    border-radius: 10px;
+  }
+  
+  /* Optional: stronger shadow on hover */
+  .exec-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  }  
+
+.card-img-top {
+  width: 50%;
+  margin: 10px auto;
+  display: block;
+  border-radius: 10px;
 }
 
 .row{
@@ -34,11 +64,17 @@ img{
 
 .title{
   font-size: 20px;
+  font-weight: bolder;
   background-color: rgb(97, 64, 128);
   color: white;
   text-align: center;
   margin:20px;
   padding:5px;
+  border-radius: 10px;
+}
+
+.role, .email, .intro{
+    font-weight: bold;
 }
 
 .homepage_links{
