@@ -198,7 +198,7 @@ img{
   .contact-divider {
     width: 2px;
     background-color: black;
-    min-height: 400px;
+    min-height: 500px;
   }
   
   @media (max-width: 768px) {
